@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mrmoifier"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Wand <wandbrandon@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+scikit-image = "^0.22.0"
+pillow = "^10.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
